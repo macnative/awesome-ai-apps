@@ -1,14 +1,7 @@
 export const platforms = {
-  "macos": "macOS",
-  "windows": "Windows",
-  "linux": "Linux",
-  "web": "Web",
-  "ios": "iOS",
-  "android": "Android",
-  "cli": "CLI",
-  "browser": "Browser",
-  "ide": "IDE",
-  "self-hosted": "Self-hosted"
+  macos: "macOS",
+  windows: "Windows",
+  linux: "Linux"
 };
 
 export const platformBadge = key => {

@@ -1,14 +1,14 @@
-# Maintaining Awesome AI Apps
+# Maintaining Awesome AI Desktop Apps
 
 ## Positioning and GitHub metadata
 
-Use a dedicated `macnative/awesome-ai-apps` repository. The title and editorial scope are platform-neutral; hosting under the existing organization avoids splitting maintainership. Do not turn the list into a Mac-only directory.
+Use a dedicated `macnative/awesome-ai-apps` repository. The scope is standalone desktop apps for macOS, Windows, and Linux. Cloud-backed desktop clients qualify. Web-only, mobile-only, CLI-only, extension-only, and browser-only self-hosted products do not. Keep the existing repository URL for continuity.
 
 Recommended repository description:
 
-> Awesome AI Apps — Curated AI-powered software for Mac, Windows, Linux, web, mobile, CLI and browsers. Chat, coding, writing, media, local LLMs and agents.
+> Awesome AI Desktop Apps — Curated AI-powered desktop software for macOS, Windows and Linux. Chat, coding, writing, media, local LLMs and agents.
 
-Topics: `awesome`, `awesome-list`, `ai`, `ai-apps`, `ai-tools`, `artificial-intelligence`, `generative-ai`, `llm`, `ai-agents`, `coding-assistant`, `productivity`, `macos`, `windows`, `linux`, `web-apps`, `mobile-apps`, `cli`, `browser-extension`, `self-hosted`.
+Topics: `awesome`, `awesome-list`, `ai`, `ai-apps`, `ai-tools`, `artificial-intelligence`, `generative-ai`, `llm`, `ai-agents`, `coding-assistant`, `productivity`, `macos`, `windows`, `linux`, `desktop-apps`, `desktop-ai`, `cross-platform`.
 
 Clear headings, concise original descriptions, direct product links, contribution instructions, and current evidence are the search strategy. Do not repeat “best AI tools” throughout the README or promise rankings. The list is alphabetical, not a comparative benchmark.
 
@@ -26,7 +26,7 @@ The CI configuration is provided in `maintenance/validate-workflow.yml` and is n
 
 ## Reviewing submissions
 
-Confirm the product works, has a documented AI capability, and contributes a distinct use case. Check the contributor's maintenance, public usage, pricing, license, and privacy-policy sources. Require a dated maintenance signal within six months or record a stable-product exception with supporting evidence in the PR. A live homepage alone is not enough for a new submission.
+Confirm the product provides an installable standalone desktop app, has a documented AI capability, and contributes a distinct use case. Verify GUI availability separately for each operating-system badge; CLI or server support alone does not qualify. Check the contributor's maintenance, public usage, pricing, license, and privacy-policy sources. Require a dated maintenance signal within six months or record a stable-product exception with supporting evidence in the PR. A live homepage alone is not enough for a new submission.
 
 Use the PR discussion as the durable record for editorial decisions. Keep promotional language, referral links, unsupported privacy guarantees, and unreleased platforms out of the entry. Do not equate open weights, a public repository, source availability, and an open-source application license.
 

@@ -1,7 +1,7 @@
 {
   "name": "awesome-ai-apps",
   "version": "1.0.0",
-  "description": "Curated AI-powered apps across every platform",
+  "description": "Curated AI-powered desktop apps for macOS, Windows and Linux",
   "scripts": {
     "build": "node scripts/build.mjs",
     "lint": "awesome-lint README.md",

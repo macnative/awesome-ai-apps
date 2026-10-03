@@ -1,6 +1,6 @@
 # Mac AI app coverage review
 
-Reviewed on 2026-10-03. Added 21 apps and corrected missing Mac badges for DeepL Write, Grammarly, and Notion AI. The list now contains 69 apps, including 39 with verified macOS support. This is a curated expansion, not a claim to have discovered every useful Mac app.
+Historical research conducted on 2026-10-03, before the repository was narrowed to standalone desktop apps. At that time the broader list had 69 entries. The current README and verification log supersede those counts and exclude web-only, CLI-only, and extension-only products. The original candidate findings below are retained as review history.
 
 ## Selection method
 
@@ -24,7 +24,7 @@ The apps are listed alphabetically within their main README categories, with no 
 
 ## Mac compatibility details
 
-A macOS badge can identify a native app, a cross-platform desktop app, or a supported command-line tool; the accompanying description and CLI badge distinguish them. It does not promise Intel support or compatibility with every macOS version.
+Current badges identify standalone desktop apps only. They do not promise Intel support or compatibility with every macOS version. Claude Code and Codex CLI were removed as standalone entries when scope changed to desktop apps; other apps may still offer optional terminal interfaces.
 
 - Nativ requires Apple Silicon and macOS 26 or later.
 - Comfy Desktop's Mac instructions specify Apple Silicon; generation speed depends on hardware and models.

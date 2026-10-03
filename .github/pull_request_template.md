@@ -6,13 +6,13 @@ For corrections, explain the change and cite a source. For new apps, complete ev
 - Official URL:
 - One-line description:
 - Category:
-- Platforms and official download/store/docs links:
+- Desktop platforms (macOS / Windows / Linux) and official installer or desktop app-store links:
 - Pricing model and pricing/access-terms URL:
 - Open-source status (open source / source available / proprietary / mixed):
 - Repository and license URL, if applicable:
 - Your relationship to the product:
 - Distinctive value and how you tested it:
-- Availability evidence:
+- Standalone desktop app evidence:
 - Dated maintenance evidence within six months:
 - Public real-use evidence:
 - Hosted-product privacy policy:
@@ -21,7 +21,7 @@ For corrections, explain the change and cite a source. For new apps, complete ev
 
 ## Checklist
 
-- [ ] One available product, in one category, alphabetized and not duplicated.
+- [ ] One standalone desktop app for macOS, Windows, or Linux, in one category, alphabetized and not duplicated.
 - [ ] Neutral description and official links without referral codes.
 - [ ] Platform claims, maintenance, and real use have supporting evidence.
 - [ ] Pricing, license status, and affiliation are disclosed.

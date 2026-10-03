@@ -32,10 +32,7 @@
     "category": "Chat and Assistants",
     "platforms": [
       "macos",
-      "windows",
-      "web",
-      "ios",
-      "android"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://chatgpt.com/download",
@@ -62,10 +59,7 @@
     "category": "Chat and Assistants",
     "platforms": [
       "macos",
-      "windows",
-      "web",
-      "ios",
-      "android"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://claude.com/download",
@@ -77,26 +71,11 @@
     "description": "Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates",
     "category": "Chat and Assistants",
     "platforms": [
-      "macos",
-      "ios"
+      "macos"
     ],
     "verified": "2026-10-03",
     "source": "https://github.com/gluonfield/enchanted",
     "evidence": "README links the App Store and documents Mac and iOS access; requires a separately running Ollama server. [Release v1.8.2](https://github.com/gluonfield/enchanted/releases/tag/v1.8.2) published 2026-06-15. [User report](https://github.com/gluonfield/enchanted/issues/220) documents real product use or feature requests."
-  },
-  {
-    "name": "Gemini",
-    "url": "https://gemini.google/about",
-    "description": "Google assistant for multimodal conversations, research, and creative work",
-    "category": "Chat and Assistants",
-    "platforms": [
-      "web",
-      "ios",
-      "android"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://gemini.google/about",
-    "evidence": "Live assistant entry point and mobile access; current feature documentation."
   },
   {
     "name": "macai",
@@ -109,6 +88,19 @@
     "verified": "2026-10-03",
     "source": "https://github.com/Renset/macai",
     "evidence": "Universal Mac binary, macOS 14 or later, Intel and Apple Silicon; hosted providers require separate API credentials. [Release v2.4.3](https://github.com/Renset/macai/releases/tag/v2.4.3) published 2026-08-16. [User report](https://github.com/Renset/macai/issues/156) documents real product use or feature requests."
+  },
+  {
+    "name": "Monica",
+    "url": "https://monica.im",
+    "description": "Desktop AI assistant for multi-model chat, writing, translation, and document summaries",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://powerup.monica.im/download",
+    "evidence": "Official download page explicitly lists standalone Mac and Windows desktop apps in addition to separate browser and mobile products."
   },
   {
     "name": "Msty Studio",
@@ -127,140 +119,68 @@
   {
     "name": "Perplexity",
     "url": "https://www.perplexity.ai",
-    "description": "Answer engine that searches the web and cites sources for follow-up research",
+    "description": "Desktop research assistant with cited answers and tools for working with local files and apps",
     "category": "Chat and Assistants",
     "platforms": [
-      "web"
+      "macos"
     ],
     "verified": "2026-10-03",
-    "source": "https://www.perplexity.ai/hub",
-    "evidence": "Live search product and published product resources."
+    "source": "https://www.perplexity.ai/personal-computer",
+    "evidence": "Official Personal Computer page documents the Perplexity Mac desktop app and setup route, with macOS 15 or later required. Cloud features and plan limits apply."
   },
   {
     "name": "Poe",
     "url": "https://poe.com",
-    "description": "Chat interface for using multiple AI models and discovering custom bots",
+    "description": "Desktop chat client for using multiple AI models and discovering custom bots",
     "category": "Chat and Assistants",
     "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://poe.com",
-    "evidence": "Working sign-in and product access page."
-  },
-  {
-    "name": "Aider",
-    "url": "https://aider.chat",
-    "description": "Terminal pair programmer that edits code in an existing Git repository",
-    "category": "Coding Assistants",
-    "platforms": [
-      "cli"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://aider.chat/docs/install.html",
-    "evidence": "Published installation commands and supported Python-based terminal workflow."
-  },
-  {
-    "name": "Claude Code",
-    "url": "https://github.com/anthropics/claude-code",
-    "description": "Terminal coding agent that explores repositories, edits files, runs commands, and handles Git workflows",
-    "category": "Coding Assistants",
-    "platforms": [
       "macos",
-      "windows",
-      "linux",
-      "cli",
-      "ide"
+      "windows"
     ],
     "verified": "2026-10-03",
-    "source": "https://github.com/anthropics/claude-code",
-    "evidence": "Official Mac, Linux, and Windows installers and terminal/IDE setup instructions; commercial access terms apply. [Release v2.1.288](https://github.com/anthropics/claude-code/releases/tag/v2.1.288) published 2026-10-02. [User report](https://github.com/anthropics/claude-code/issues/99266) documents real product use or feature requests."
+    "source": "https://poe.com/pages/get-poe",
+    "evidence": "Official Get Poe page links separate macOS and Windows desktop installers on the Poe CDN."
   },
   {
     "name": "Cline",
     "url": "https://github.com/cline/cline",
-    "description": "Coding agent for desktop, editors, and terminals that edits files and runs tools with approval controls",
+    "description": "Desktop coding agent that edits files, runs tools, and manages agent sessions with approval controls",
     "category": "Coding Assistants",
     "platforms": [
       "macos",
-      "windows",
-      "cli",
-      "ide"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://github.com/cline/cline",
     "evidence": "Official README links Mac and Windows desktop downloads, editor marketplaces, and the CLI; Mac universal DMG is available. [Release desktop-v0.0.43](https://github.com/cline/cline/releases/tag/desktop-v0.0.43) published 2026-10-02. [User report](https://github.com/cline/cline/issues/14806) documents real product use or feature requests."
   },
   {
-    "name": "Codex CLI",
-    "url": "https://github.com/openai/codex",
-    "description": "Terminal coding agent for understanding repositories, making changes, and running development tasks",
-    "category": "Coding Assistants",
-    "platforms": [
-      "macos",
-      "windows",
-      "linux",
-      "cli"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://github.com/openai/codex",
-    "evidence": "Official README provides Mac, Linux, and Windows installation routes; release binaries and account or API access requirements are documented. [Release rust-v0.160.0](https://github.com/openai/codex/releases/tag/rust-v0.160.0) published 2026-10-01. [User report](https://github.com/openai/codex/issues/50671) documents real product use or feature requests."
-  },
-  {
     "name": "Cursor",
     "url": "https://cursor.com",
-    "description": "Code editor and agent workspace for editing, understanding, and building software",
+    "description": "Desktop code editor and agent workspace for editing, understanding, and building software",
     "category": "Coding Assistants",
     "platforms": [
       "macos",
       "windows",
-      "linux",
-      "web",
-      "cli"
+      "linux"
     ],
     "verified": "2026-10-03",
     "source": "https://cursor.com/download",
     "evidence": "Current desktop downloads for all three operating systems, terminal installer, and web entry point."
   },
   {
-    "name": "GitHub Copilot",
-    "url": "https://github.com/features/copilot",
-    "description": "Coding assistant and agent integrated with GitHub and supported editors",
-    "category": "Coding Assistants",
-    "platforms": [
-      "web",
-      "ide"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://github.com/features/copilot",
-    "evidence": "Live product plans, editor integrations, and coding-agent features."
-  },
-  {
     "name": "OpenCode",
     "url": "https://github.com/anomalyco/opencode",
-    "description": "Coding agent with terminal and desktop interfaces, multiple model providers, and project-aware tools",
+    "description": "Desktop coding agent with multiple model providers and project-aware tools",
     "category": "Coding Assistants",
     "platforms": [
       "macos",
       "windows",
-      "linux",
-      "cli"
+      "linux"
     ],
     "verified": "2026-10-03",
     "source": "https://github.com/anomalyco/opencode",
     "evidence": "README documents Mac Intel and Apple Silicon desktop downloads, Windows and Linux packages, and CLI installation. [Release v1.18.34](https://github.com/anomalyco/opencode/releases/tag/v1.18.34) published 2026-09-30. [User report](https://github.com/anomalyco/opencode/issues/52965) documents real product use or feature requests."
-  },
-  {
-    "name": "Replit",
-    "url": "https://replit.com",
-    "description": "Browser development environment with an AI agent for building and deploying apps",
-    "category": "Coding Assistants",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://replit.com",
-    "evidence": "Live app builder, signup, and deployment workflow."
   },
   {
     "name": "Zed",
@@ -282,8 +202,7 @@
     "description": "Writing assistant for improving wording, grammar, tone, and style",
     "category": "Writing and Editing",
     "platforms": [
-      "macos",
-      "web"
+      "macos"
     ],
     "verified": "2026-10-03",
     "source": "https://www.deepl.com/en/write",
@@ -295,60 +214,11 @@
     "description": "Writing assistant for grammar, clarity, tone, and drafting across everyday work",
     "category": "Writing and Editing",
     "platforms": [
-      "macos",
-      "web"
+      "macos"
     ],
     "verified": "2026-10-03",
     "source": "https://www.grammarly.com",
     "evidence": "Live writing product, signup, and supported integrations. Mac availability additionally checked against the official [Mac app page](https://www.grammarly.com/desktop/mac)."
-  },
-  {
-    "name": "Jasper",
-    "url": "https://www.jasper.ai",
-    "description": "Marketing workspace for generating and adapting content to a brand voice",
-    "category": "Writing and Editing",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.jasper.ai",
-    "evidence": "Current marketing workflows, customer stories, and product access."
-  },
-  {
-    "name": "QuillBot",
-    "url": "https://quillbot.com",
-    "description": "Writing toolkit for paraphrasing, grammar correction, and summarization",
-    "category": "Writing and Editing",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://quillbot.com",
-    "evidence": "Live writing tools and product plans."
-  },
-  {
-    "name": "Sudowrite",
-    "url": "https://sudowrite.com",
-    "description": "Fiction writing assistant for brainstorming, developing scenes, and revising prose",
-    "category": "Writing and Editing",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://sudowrite.com",
-    "evidence": "Working trial entry point and fiction-writing feature documentation."
-  },
-  {
-    "name": "Adobe Firefly",
-    "url": "https://www.adobe.com/products/firefly.html",
-    "description": "Creative toolkit for generating and editing images, video, and other media",
-    "category": "Image and Video Generation",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.adobe.com/products/firefly.html",
-    "evidence": "Live generative media tools and plans."
   },
   {
     "name": "Comfy Desktop",
@@ -370,62 +240,11 @@
     "description": "Apple app for local image and video generation, inpainting, model customization, and LoRA training",
     "category": "Image and Video Generation",
     "platforms": [
-      "macos",
-      "ios"
+      "macos"
     ],
     "verified": "2026-10-03",
     "source": "https://github.com/drawthingsai/draw-things-community",
     "evidence": "Official source repository links the Mac/iOS app; [release v26.0928.0](https://github.com/drawthingsai/draw-things-community/releases/tag/v26.0928.0) dated 2026-09-28. [App Store listing](https://apps.apple.com/us/app/draw-things-offline-ai-art/id6444050820) has user reviews. Local creation and optional cloud services have different requirements."
-  },
-  {
-    "name": "Ideogram",
-    "url": "https://ideogram.ai",
-    "description": "Image generation platform for creating visuals from text prompts",
-    "category": "Image and Video Generation",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://ideogram.ai",
-    "evidence": "Current image apps, model information, and product access."
-  },
-  {
-    "name": "Midjourney",
-    "url": "https://www.midjourney.com",
-    "description": "Image and video generation service for exploring visual concepts and styles",
-    "category": "Image and Video Generation",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.midjourney.com",
-    "evidence": "Image and video models, signup, documentation, and user support links."
-  },
-  {
-    "name": "Recraft",
-    "url": "https://www.recraft.ai",
-    "description": "Design workspace for generating and editing raster images and vector graphics",
-    "category": "Image and Video Generation",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.recraft.ai",
-    "evidence": "Live design tools, product access, and customer use cases."
-  },
-  {
-    "name": "Runway",
-    "url": "https://runway.com",
-    "description": "Creative suite for generating and editing video, images, and audio",
-    "category": "Image and Video Generation",
-    "platforms": [
-      "web",
-      "ios",
-      "android"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://runway.com",
-    "evidence": "Live creative app, free signup, and official Android and iOS links."
   },
   {
     "name": "Buzz",
@@ -455,18 +274,6 @@
     "evidence": "Current desktop downloads; product page describes transcription and AI editing."
   },
   {
-    "name": "ElevenLabs",
-    "url": "https://elevenlabs.io",
-    "description": "Audio platform for speech generation, dubbing, and conversational voice agents",
-    "category": "Audio Voice and Transcription",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://elevenlabs.io",
-    "evidence": "Live voice tools, signup, and published product use cases."
-  },
-  {
     "name": "Handy",
     "url": "https://github.com/cjpais/Handy",
     "description": "Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut",
@@ -493,39 +300,13 @@
     "evidence": "Mac app download and transcription features."
   },
   {
-    "name": "Otter",
-    "url": "https://otter.ai",
-    "description": "Meeting assistant that transcribes conversations and produces notes and summaries",
-    "category": "Audio Voice and Transcription",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://otter.ai",
-    "evidence": "Live meeting assistant, product plans, and customer examples."
-  },
-  {
-    "name": "Suno",
-    "url": "https://suno.com",
-    "description": "Music creation tool for generating songs and experimenting with musical ideas",
-    "category": "Audio Voice and Transcription",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://suno.com",
-    "evidence": "Live music generation service and creation entry point."
-  },
-  {
     "name": "Superwhisper",
     "url": "https://superwhisper.com",
     "description": "Voice-to-text app that turns dictation into polished text inside other apps",
     "category": "Audio Voice and Transcription",
     "platforms": [
       "macos",
-      "windows",
-      "ios",
-      "android"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://superwhisper.com",
@@ -564,9 +345,7 @@
     "category": "Audio Voice and Transcription",
     "platforms": [
       "macos",
-      "windows",
-      "ios",
-      "android"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://wisprflow.ai",
@@ -576,13 +355,11 @@
     "name": "AnythingLLM",
     "url": "https://anythingllm.com",
     "description": "Workspace for chatting with documents and running agents with local or connected models",
-    "category": "Local LLMs and Self-Hosted Apps",
+    "category": "Local LLM Apps",
     "platforms": [
       "macos",
       "windows",
-      "linux",
-      "web",
-      "self-hosted"
+      "linux"
     ],
     "verified": "2026-10-03",
     "source": "https://anythingllm.com/download",
@@ -592,7 +369,7 @@
     "name": "Jan",
     "url": "https://www.jan.ai",
     "description": "Desktop chat client for running local models or connecting to online model providers",
-    "category": "Local LLMs and Self-Hosted Apps",
+    "category": "Local LLM Apps",
     "platforms": [
       "macos",
       "windows",
@@ -606,7 +383,7 @@
     "name": "LM Studio",
     "url": "https://lmstudio.ai",
     "description": "Desktop app for discovering local models, chatting with them, and serving an API",
-    "category": "Local LLMs and Self-Hosted Apps",
+    "category": "Local LLM Apps",
     "platforms": [
       "macos",
       "windows",
@@ -620,7 +397,7 @@
     "name": "Nativ",
     "url": "https://github.com/Blaizzy/nativ",
     "description": "Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs",
-    "category": "Local LLMs and Self-Hosted Apps",
+    "category": "Local LLM Apps",
     "platforms": [
       "macos"
     ],
@@ -631,43 +408,15 @@
   {
     "name": "Ollama",
     "url": "https://ollama.com",
-    "description": "Model runner with a command-line interface and API for local and cloud models",
-    "category": "Local LLMs and Self-Hosted Apps",
+    "description": "Desktop app for running local models and connecting them to chat apps, with an accompanying API and CLI",
+    "category": "Local LLM Apps",
     "platforms": [
       "macos",
-      "windows",
-      "linux",
-      "cli"
+      "windows"
     ],
     "verified": "2026-10-03",
-    "source": "https://ollama.com/download",
-    "evidence": "Mac, Windows, and Linux installation options; local versus cloud execution documented."
-  },
-  {
-    "name": "Open WebUI",
-    "url": "https://github.com/open-webui/open-webui",
-    "description": "Self-hosted chat interface for local and remote models with document workflows",
-    "category": "Local LLMs and Self-Hosted Apps",
-    "platforms": [
-      "web",
-      "self-hosted"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://github.com/open-webui/open-webui",
-    "evidence": "Public repository with installation instructions, releases, and license terms."
-  },
-  {
-    "name": "Dify",
-    "url": "https://dify.ai",
-    "description": "Visual builder for AI agents, knowledge pipelines, and model-driven workflows",
-    "category": "Agents and Automation",
-    "platforms": [
-      "web",
-      "self-hosted"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://dify.ai",
-    "evidence": "Cloud signup and Docker community deployment; license described as source-available."
+    "source": "https://docs.ollama.com/macos",
+    "evidence": "Official macOS documentation describes the DMG and Applications-folder GUI installation; [Windows documentation](https://docs.ollama.com/windows) describes its native app. Linux offers a CLI/server and is not tagged as a desktop app."
   },
   {
     "name": "Enconvo",
@@ -682,70 +431,18 @@
     "evidence": "Official Mac download, pricing, and customer testimonials. [Changelog](https://www.enconvo.com/changelog) documents release 2.5.5 on 2026-09-10 and desktop feature updates. The official [GitHub organization](https://github.com/Enconvo) hosts extensions; this does not imply the full app is open source."
   },
   {
-    "name": "Flowise",
-    "url": "https://flowiseai.com",
-    "description": "Visual workspace for building AI agents and connecting models to tools and data",
-    "category": "Agents and Automation",
-    "platforms": [
-      "web",
-      "self-hosted"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://flowiseai.com",
-    "evidence": "Agent builder, cloud access, and public source repository."
-  },
-  {
     "name": "Goose",
     "url": "https://github.com/aaif-goose/goose",
-    "description": "Extensible desktop and terminal agent that edits files, executes tasks, and connects models to external tools",
+    "description": "Extensible desktop agent that edits files, executes tasks, and connects models to external tools",
     "category": "Agents and Automation",
     "platforms": [
       "macos",
       "windows",
-      "linux",
-      "cli"
+      "linux"
     ],
     "verified": "2026-10-03",
     "source": "https://github.com/aaif-goose/goose",
     "evidence": "Current AAIF repository, formerly block/goose; README documents desktop installers and CLI setup for the supported systems. [Release v1.53.0](https://github.com/aaif-goose/goose/releases/tag/v1.53.0) published 2026-10-02. [User report](https://github.com/aaif-goose/goose/issues/12655) documents real product use or feature requests."
-  },
-  {
-    "name": "Langflow",
-    "url": "https://www.langflow.org",
-    "description": "Visual builder for composing AI agents and retrieval workflows",
-    "category": "Agents and Automation",
-    "platforms": [
-      "web",
-      "self-hosted"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.langflow.org",
-    "evidence": "Download and source access with agent and retrieval documentation."
-  },
-  {
-    "name": "Lindy",
-    "url": "https://www.lindy.ai",
-    "description": "AI assistant for automating work across email, meetings, and connected business tools",
-    "category": "Agents and Automation",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.lindy.ai",
-    "evidence": "Live assistant signup, integrations, and customer examples."
-  },
-  {
-    "name": "n8n",
-    "url": "https://n8n.io",
-    "description": "Workflow automation platform that connects AI agents with business apps and data",
-    "category": "Agents and Automation",
-    "platforms": [
-      "web",
-      "self-hosted"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://n8n.io",
-    "evidence": "Cloud product, self-hosting documentation, and AI workflow examples."
   },
   {
     "name": "Craft",
@@ -754,25 +451,11 @@
     "category": "Productivity and Knowledge",
     "platforms": [
       "macos",
-      "windows",
-      "web",
-      "ios"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://www.craft.do/download",
     "evidence": "Mac, Windows, web, iPhone and iPad access; product page describes AI assistance."
-  },
-  {
-    "name": "Gamma",
-    "url": "https://gamma.app",
-    "description": "AI creation tool for presentations, documents, and websites",
-    "category": "Productivity and Knowledge",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://gamma.app",
-    "evidence": "Live creation product, signup, and presentation examples."
   },
   {
     "name": "Granola",
@@ -781,8 +464,7 @@
     "category": "Productivity and Knowledge",
     "platforms": [
       "macos",
-      "windows",
-      "ios"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://www.granola.ai/updates",
@@ -794,8 +476,7 @@
     "description": "Workspace assistant for searching knowledge, drafting documents, and automating tasks",
     "category": "Productivity and Knowledge",
     "platforms": [
-      "macos",
-      "web"
+      "macos"
     ],
     "verified": "2026-10-03",
     "source": "https://www.notion.com/product/ai",
@@ -808,36 +489,11 @@
     "category": "Productivity and Knowledge",
     "platforms": [
       "macos",
-      "windows",
-      "ios"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://www.raycast.com/core-features/ai",
     "evidence": "AI features, paid plans, and Mac, Windows, and iOS product links."
-  },
-  {
-    "name": "LLM",
-    "url": "https://llm.datasette.io",
-    "description": "Command-line tool for querying models, storing conversations, and generating embeddings",
-    "category": "Developer Tools",
-    "platforms": [
-      "cli"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://llm.datasette.io/en/stable",
-    "evidence": "Current CLI installation, usage documentation, and plugin ecosystem."
-  },
-  {
-    "name": "Postman AI Agent Builder",
-    "url": "https://www.postman.com/product/ai-agent-builder",
-    "description": "Toolkit for connecting APIs and testing AI agent workflows",
-    "category": "Developer Tools",
-    "platforms": [
-      "web"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.postman.com/product/ai-agent-builder",
-    "evidence": "Published agent builder with API workflow documentation and product entry points."
   },
   {
     "name": "Warp",
@@ -860,60 +516,10 @@
     "category": "AI Browsers",
     "platforms": [
       "macos",
-      "windows",
-      "ios",
-      "android"
+      "windows"
     ],
     "verified": "2026-10-03",
     "source": "https://www.perplexity.ai/comet",
     "evidence": "Explicit availability for Mac, Windows, iOS, and Android."
-  },
-  {
-    "name": "Opera AI",
-    "url": "https://www.opera.com/features/opera-ai",
-    "description": "Built-in browser assistant for answering questions and working with page context",
-    "category": "AI Browsers",
-    "platforms": [
-      "browser"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://www.opera.com/features/opera-ai",
-    "evidence": "Current Opera AI feature page and browser download; formerly Aria."
-  },
-  {
-    "name": "HARPA AI",
-    "url": "https://harpa.ai",
-    "description": "Browser agent for page-aware chat, summarization, and web automation",
-    "category": "Browser Extensions",
-    "platforms": [
-      "browser"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://harpa.ai",
-    "evidence": "Installable browser extension with documented automation features."
-  },
-  {
-    "name": "Monica",
-    "url": "https://monica.im",
-    "description": "Browser assistant for chatting with models, translating text, and summarizing content",
-    "category": "Browser Extensions",
-    "platforms": [
-      "browser"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://monica.im",
-    "evidence": "Current extension access and multi-model assistant features."
-  },
-  {
-    "name": "Sider",
-    "url": "https://sider.ai",
-    "description": "Browser sidebar for AI chat, reading assistance, translation, and page summaries",
-    "category": "Browser Extensions",
-    "platforms": [
-      "browser"
-    ],
-    "verified": "2026-10-03",
-    "source": "https://sider.ai",
-    "evidence": "Live browser extension and page-aware assistant features."
   }
 ]
