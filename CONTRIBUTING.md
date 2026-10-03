@@ -12,7 +12,7 @@ Submit a working product with a concrete advantage. Waitlists, unreleased featur
 
 1. Fork the repository and create a branch.
 2. Add one object to `data/apps.json`, alphabetically within its category, matching the existing fields. Use the canonical official HTTPS URL and a short description of what the app does. Avoid “best,” “revolutionary,” pricing amounts, model version numbers, and repeating the app name.
-3. Include only verified platforms. Use 📱 for both iOS and Android, or qualify it as `📱 iOS` or `📱 Android`. Label 🧩 as `Browser` or `IDE`. CLI and self-hosted tools must document installation requirements; do not infer native apps from web availability.
+3. Include only verified platforms in the `platforms` array. Supported values: `macos`, `windows`, `linux`, `web`, `ios`, `android`, `cli`, `browser`, `ide`, `self-hosted`. For example: `["macos", "windows", "web"]`. List `ios` and `android` separately when each is verified. The generator renders these as labeled badges. CLI and self-hosted tools must document installation requirements; do not infer native apps from web availability.
 4. Set `verified` to your actual review date, `source` to an official evidence page, and `evidence` to a concrete availability observation. Include additional links in the PR when one source cannot support all claims.
 5. Run `npm ci`, `npm run build`, and `npm test`. Commit the data and both generated Markdown files. Do not edit generated README entries directly.
 6. Complete the PR template below. One product per PR keeps review focused.

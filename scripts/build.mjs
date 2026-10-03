@@ -1,4 +1,5 @@
 import {readFileSync, writeFileSync} from 'node:fs';
+import {platforms, platformBadge} from './platforms.mjs';
 const apps = JSON.parse(readFileSync('data/apps.json', 'utf8'));
 const categories = [...new Set(apps.map(app => app.category))];
 const slug = text => text.toLowerCase().replaceAll(' ', '-');
@@ -10,9 +11,11 @@ Find AI software for chat, coding, writing, image and video generation, voice, l
 
 **Build an AI app? [Submit it for review](#contributing).** Independent developers and product teams are welcome. Inclusion is earned through usefulness, availability, and maintenance; there are no paid placements or affiliate links.
 
-Platform key: 🍎 macOS · 🪟 Windows · 🐧 Linux · 🌐 Web interface · 📱 Mobile (iOS and Android unless qualified) · ⌨️ CLI · 🧩 Browser or IDE integration (as labeled) · 🏠 Self-hostable.
+Platform badges: ${Object.keys(platforms).map(platformBadge).join(' ')}
 
-Tags identify verified ways to use a product, not every supported platform. Web access does not imply a native desktop app. Self-hosting does not guarantee offline operation: model providers and integrations may still send data to external services.
+Web means a web interface; Browser and IDE identify integrations; CLI means command-line access; Self-hosted means you can run the service yourself. iOS and Android are labeled separately.
+
+Badges identify verified ways to use a product, not every supported platform. Web access does not imply a native desktop app. Self-hosting does not guarantee offline operation: model providers and integrations may still send data to external services.
 
 Seed review: **2026-10-03** · **${apps.length} apps** · [Verification sources](VERIFICATION.md). Verification checks public availability and documented capabilities; it is not a hands-on test, security audit, or product endorsement. Features, access, and pricing can change.
 
@@ -22,7 +25,7 @@ ${[...categories, 'Inclusion Criteria', 'Keeping the List Useful'].map(cat => `-
 `;
 for (const category of categories) {
  readme += `\n## ${category}\n\n`;
- readme += apps.filter(app => app.category === category).map(app => `- [${app.name}](${app.url}) - ${app.description}. (${app.platforms})`).join('\n')+'\n';
+ readme += apps.filter(app => app.category === category).map(app => `- [${app.name}](${app.url}) - ${app.description}. ${app.platforms.map(platformBadge).join(' ')}`).join('\n')+'\n';
 }
 readme += `
 ## Inclusion Criteria

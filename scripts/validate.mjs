@@ -1,12 +1,13 @@
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync, existsSync} from 'node:fs';
+import {platforms} from './platforms.mjs';
 const apps = JSON.parse(readFileSync('data/apps.json','utf8'));
 const names = new Set();
 const urls = new Set();
 const closedCategories = new Set();
 let category, previousName;
 for (const app of apps) {
- for (const field of ['name','url','description','category','platforms','verified','source','evidence']) {
+ for (const field of ['name','url','description','category','verified','source','evidence']) {
   assert.equal(typeof app[field], 'string', `${app.name}: missing ${field}`);
   assert(app[field].trim(), `${app.name}: empty ${field}`);
   assert(!/[\n\r|]/u.test(app[field]), `${app.name}: invalid markup in ${field}`);
@@ -26,7 +27,12 @@ for (const app of apps) {
  const date = new Date(app.verified);
  assert(!Number.isNaN(+date) && date.toISOString().slice(0,10) === app.verified, `${app.name}: invalid date`);
  assert(date <= new Date(), `${app.name}: future review date`);
- assert(/[🍎🪟🐧🌐📱⌨🧩🏠]/u.test(app.platforms), `${app.name}: platform tag missing`);
+ assert(Array.isArray(app.platforms) && app.platforms.length > 0, `${app.name}: platforms missing`);
+ assert.equal(new Set(app.platforms).size, app.platforms.length, `${app.name}: duplicate platform`);
+ for (const platform of app.platforms) {
+  assert(Object.hasOwn(platforms, platform), `${app.name}: unknown platform ${platform}`);
+  assert(existsSync(`assets/badges/${platform}.svg`), `${app.name}: missing badge ${platform}`);
+ }
  assert(app.description.length <= 180, `${app.name}: shorten description`);
  if (app.category !== category) {
   if (category) closedCategories.add(category);
