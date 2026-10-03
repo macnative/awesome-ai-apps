@@ -1,0 +1,17 @@
+{
+  "name": "awesome-ai-apps",
+  "version": "1.0.0",
+  "description": "Curated AI-powered apps across every platform",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "awesome-lint README.md",
+    "test": "node scripts/validate.mjs && node scripts/build.mjs --check && npm run lint"
+  },
+  "keywords": [],
+  "license": "CC0-1.0",
+  "type": "module",
+  "devDependencies": {
+    "awesome-lint": "2.3.0"
+  },
+  "private": true
+}
