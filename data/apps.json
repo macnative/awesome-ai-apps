@@ -1,5 +1,31 @@
 [
   {
+    "name": "BoltAI",
+    "url": "https://boltai.com",
+    "description": "Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://boltai.com",
+    "evidence": "Official Mac trial for Intel and Apple Silicon, macOS 13 or later; release 2.16.0 dated 2026-09-21 and named customer testimonial on the product page. Paid app with separately billed model providers."
+  },
+  {
+    "name": "Chatbox",
+    "url": "https://github.com/chatboxai/chatbox",
+    "description": "Desktop chat client with document conversations, model switching, and support for local or hosted providers",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/chatboxai/chatbox",
+    "evidence": "Official README links Intel and Apple Silicon installers on the product website; community and commercial editions differ. [Release v1.23.5](https://github.com/chatboxai/chatbox/releases/tag/v1.23.5) published 2026-09-24. [User report](https://github.com/chatboxai/chatbox/issues/3969) documents real product use or feature requests."
+  },
+  {
     "name": "ChatGPT",
     "url": "https://chatgpt.com",
     "description": "Conversational assistant for research, writing, coding, and working with files",
@@ -14,6 +40,20 @@
     "verified": "2026-10-03",
     "source": "https://chatgpt.com/download",
     "evidence": "Desktop and mobile download links; live chat service."
+  },
+  {
+    "name": "Cherry Studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "Multi-model desktop workspace with document knowledge bases, reusable assistants, and agent workflows",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/CherryHQ/cherry-studio",
+    "evidence": "Release includes Mac ARM64 and Intel installers; README documents Windows and Linux support. [Release v2.1.4](https://github.com/CherryHQ/cherry-studio/releases/tag/v2.1.4) published 2026-09-30. [User report](https://github.com/CherryHQ/cherry-studio/issues/21305) documents real product use or feature requests."
   },
   {
     "name": "Claude",
@@ -32,6 +72,19 @@
     "evidence": "Mac, Windows, Apple and Google Play downloads; live Claude login."
   },
   {
+    "name": "Enchanted",
+    "url": "https://github.com/gluonfield/enchanted",
+    "description": "Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/gluonfield/enchanted",
+    "evidence": "README links the App Store and documents Mac and iOS access; requires a separately running Ollama server. [Release v1.8.2](https://github.com/gluonfield/enchanted/releases/tag/v1.8.2) published 2026-06-15. [User report](https://github.com/gluonfield/enchanted/issues/220) documents real product use or feature requests."
+  },
+  {
     "name": "Gemini",
     "url": "https://gemini.google/about",
     "description": "Google assistant for multimodal conversations, research, and creative work",
@@ -44,6 +97,32 @@
     "verified": "2026-10-03",
     "source": "https://gemini.google/about",
     "evidence": "Live assistant entry point and mobile access; current feature documentation."
+  },
+  {
+    "name": "macai",
+    "url": "https://github.com/Renset/macai",
+    "description": "Native Mac chat client with provider switching, reusable prompts, and optional iCloud conversation sync",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/Renset/macai",
+    "evidence": "Universal Mac binary, macOS 14 or later, Intel and Apple Silicon; hosted providers require separate API credentials. [Release v2.4.3](https://github.com/Renset/macai/releases/tag/v2.4.3) published 2026-08-16. [User report](https://github.com/Renset/macai/issues/156) documents real product use or feature requests."
+  },
+  {
+    "name": "Msty Studio",
+    "url": "https://msty.ai/products/studio",
+    "description": "Desktop workspace for comparing local and hosted models, organizing document knowledge, and reusing prompts",
+    "category": "Chat and Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://msty.ai/products/studio",
+    "evidence": "Official Mac Intel/Apple Silicon, Windows, and Linux installers. [Changelog](https://msty.ai/resources/changelog/studio) records 2.9.6 on 2026-07-24; a [community integration](https://github.com/M-Pineapple/msty-admin-mcp) documents actual Studio workflows."
   },
   {
     "name": "Perplexity",
@@ -82,6 +161,52 @@
     "evidence": "Published installation commands and supported Python-based terminal workflow."
   },
   {
+    "name": "Claude Code",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Terminal coding agent that explores repositories, edits files, runs commands, and handles Git workflows",
+    "category": "Coding Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "cli",
+      "ide"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/anthropics/claude-code",
+    "evidence": "Official Mac, Linux, and Windows installers and terminal/IDE setup instructions; commercial access terms apply. [Release v2.1.288](https://github.com/anthropics/claude-code/releases/tag/v2.1.288) published 2026-10-02. [User report](https://github.com/anthropics/claude-code/issues/99266) documents real product use or feature requests."
+  },
+  {
+    "name": "Cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Coding agent for desktop, editors, and terminals that edits files and runs tools with approval controls",
+    "category": "Coding Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "cli",
+      "ide"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/cline/cline",
+    "evidence": "Official README links Mac and Windows desktop downloads, editor marketplaces, and the CLI; Mac universal DMG is available. [Release desktop-v0.0.43](https://github.com/cline/cline/releases/tag/desktop-v0.0.43) published 2026-10-02. [User report](https://github.com/cline/cline/issues/14806) documents real product use or feature requests."
+  },
+  {
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "description": "Terminal coding agent for understanding repositories, making changes, and running development tasks",
+    "category": "Coding Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "cli"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/openai/codex",
+    "evidence": "Official README provides Mac, Linux, and Windows installation routes; release binaries and account or API access requirements are documented. [Release rust-v0.160.0](https://github.com/openai/codex/releases/tag/rust-v0.160.0) published 2026-10-01. [User report](https://github.com/openai/codex/issues/50671) documents real product use or feature requests."
+  },
+  {
     "name": "Cursor",
     "url": "https://cursor.com",
     "description": "Code editor and agent workspace for editing, understanding, and building software",
@@ -109,6 +234,21 @@
     "verified": "2026-10-03",
     "source": "https://github.com/features/copilot",
     "evidence": "Live product plans, editor integrations, and coding-agent features."
+  },
+  {
+    "name": "OpenCode",
+    "url": "https://github.com/anomalyco/opencode",
+    "description": "Coding agent with terminal and desktop interfaces, multiple model providers, and project-aware tools",
+    "category": "Coding Assistants",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "cli"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/anomalyco/opencode",
+    "evidence": "README documents Mac Intel and Apple Silicon desktop downloads, Windows and Linux packages, and CLI installation. [Release v1.18.34](https://github.com/anomalyco/opencode/releases/tag/v1.18.34) published 2026-09-30. [User report](https://github.com/anomalyco/opencode/issues/52965) documents real product use or feature requests."
   },
   {
     "name": "Replit",
@@ -142,11 +282,12 @@
     "description": "Writing assistant for improving wording, grammar, tone, and style",
     "category": "Writing and Editing",
     "platforms": [
+      "macos",
       "web"
     ],
     "verified": "2026-10-03",
     "source": "https://www.deepl.com/en/write",
-    "evidence": "Accessible writing interface and product information."
+    "evidence": "Accessible writing interface and product information. Mac availability additionally checked against the official [Mac app page](https://www.deepl.com/en/macos-app)."
   },
   {
     "name": "Grammarly",
@@ -154,11 +295,12 @@
     "description": "Writing assistant for grammar, clarity, tone, and drafting across everyday work",
     "category": "Writing and Editing",
     "platforms": [
+      "macos",
       "web"
     ],
     "verified": "2026-10-03",
     "source": "https://www.grammarly.com",
-    "evidence": "Live writing product, signup, and supported integrations."
+    "evidence": "Live writing product, signup, and supported integrations. Mac availability additionally checked against the official [Mac app page](https://www.grammarly.com/desktop/mac)."
   },
   {
     "name": "Jasper",
@@ -207,6 +349,33 @@
     "verified": "2026-10-03",
     "source": "https://www.adobe.com/products/firefly.html",
     "evidence": "Live generative media tools and plans."
+  },
+  {
+    "name": "Comfy Desktop",
+    "url": "https://github.com/Comfy-Org/Comfy-Desktop",
+    "description": "Desktop manager for building node-based image and video generation workflows with separate ComfyUI environments",
+    "category": "Image and Video Generation",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/Comfy-Org/Comfy-Desktop",
+    "evidence": "Current successor to the archived Comfy-Org/desktop repository; README links the official installer and documents Apple Silicon Mac support and GPU requirements. [Release v1.1.6](https://github.com/Comfy-Org/Comfy-Desktop/releases/tag/v1.1.6) published 2026-10-03."
+  },
+  {
+    "name": "Draw Things",
+    "url": "https://drawthings.ai",
+    "description": "Apple app for local image and video generation, inpainting, model customization, and LoRA training",
+    "category": "Image and Video Generation",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/drawthingsai/draw-things-community",
+    "evidence": "Official source repository links the Mac/iOS app; [release v26.0928.0](https://github.com/drawthingsai/draw-things-community/releases/tag/v26.0928.0) dated 2026-09-28. [App Store listing](https://apps.apple.com/us/app/draw-things-offline-ai-art/id6444050820) has user reviews. Local creation and optional cloud services have different requirements."
   },
   {
     "name": "Ideogram",
@@ -259,6 +428,20 @@
     "evidence": "Live creative app, free signup, and official Android and iOS links."
   },
   {
+    "name": "Buzz",
+    "url": "https://github.com/chidiwilliams/buzz",
+    "description": "Desktop transcription and translation tool with offline speech recognition and subtitle export",
+    "category": "Audio Voice and Transcription",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/chidiwilliams/buzz",
+    "evidence": "Release provides Mac ARM64 and Intel DMGs plus Windows and Linux packages. [Release v1.4.5](https://github.com/chidiwilliams/buzz/releases/tag/v1.4.5) published 2026-08-23. [User report](https://github.com/chidiwilliams/buzz/issues/1642) documents real product use or feature requests."
+  },
+  {
     "name": "Descript",
     "url": "https://www.descript.com",
     "description": "Audio and video editor with text-based editing, transcription, and AI production tools",
@@ -282,6 +465,20 @@
     "verified": "2026-10-03",
     "source": "https://elevenlabs.io",
     "evidence": "Live voice tools, signup, and published product use cases."
+  },
+  {
+    "name": "Handy",
+    "url": "https://github.com/cjpais/Handy",
+    "description": "Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut",
+    "category": "Audio Voice and Transcription",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/cjpais/Handy",
+    "evidence": "README documents offline recognition, downloadable speech models, global shortcuts, and Mac installation through a DMG or Homebrew. [Release v0.9.8](https://github.com/cjpais/Handy/releases/tag/v0.9.8) published 2026-10-03. [User report](https://github.com/cjpais/Handy/issues/2198) documents real product use or feature requests."
   },
   {
     "name": "MacWhisper",
@@ -335,6 +532,47 @@
     "evidence": "Explicit Mac, Windows, iOS, and Android downloads; free and paid plans."
   },
   {
+    "name": "Vibe",
+    "url": "https://github.com/thewh1teagle/vibe",
+    "description": "Local transcription app for audio and video files, batch processing, and optional summaries through Ollama",
+    "category": "Audio Voice and Transcription",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/thewh1teagle/vibe",
+    "evidence": "Mac DMG and Windows/Linux release packages; mobile recording uses a browser connection and is not labeled as a native mobile app. [Release v3.2.2](https://github.com/thewh1teagle/vibe/releases/tag/v3.2.2) published 2026-09-05. [User report](https://github.com/thewh1teagle/vibe/issues/1623) documents real product use or feature requests."
+  },
+  {
+    "name": "VoiceInk",
+    "url": "https://github.com/Beingpax/VoiceInk",
+    "description": "Mac dictation app with local speech models, app-specific modes, and optional AI text cleanup",
+    "category": "Audio Voice and Transcription",
+    "platforms": [
+      "macos"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/Beingpax/VoiceInk",
+    "evidence": "Official Beingpax repository and VoiceInk.dmg, not similarly named third-party copies; macOS 15 or later; prebuilt app has a paid license with trial. [Release v2.21](https://github.com/Beingpax/VoiceInk/releases/tag/v2.21) published 2026-09-28. [User report](https://github.com/Beingpax/VoiceInk/issues/991) documents real product use or feature requests."
+  },
+  {
+    "name": "Wispr Flow",
+    "url": "https://wisprflow.ai",
+    "description": "Cross-app dictation tool that formats spoken thoughts into text and supports meeting notes",
+    "category": "Audio Voice and Transcription",
+    "platforms": [
+      "macos",
+      "windows",
+      "ios",
+      "android"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://wisprflow.ai",
+    "evidence": "Official downloads for Mac, Windows, iPhone, and Android; named customer examples on the product page. [Product updates](https://wisprflow.ai/whats-new) dated 2026-09-17 and 2026-09-15 confirm ongoing speech and meeting features; hosted processing and subscription terms apply."
+  },
+  {
     "name": "AnythingLLM",
     "url": "https://anythingllm.com",
     "description": "Workspace for chatting with documents and running agents with local or connected models",
@@ -379,6 +617,18 @@
     "evidence": "Current LM Studio download and release notes, separate from the Bionic agent."
   },
   {
+    "name": "Nativ",
+    "url": "https://github.com/Blaizzy/nativ",
+    "description": "Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs",
+    "category": "Local LLMs and Self-Hosted Apps",
+    "platforms": [
+      "macos"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/Blaizzy/nativ",
+    "evidence": "Requires Apple Silicon and macOS 26 or later; official DMG, bundled local runtime, and documented model setup. [Release v0.3.11](https://github.com/Blaizzy/nativ/releases/tag/v0.3.11) published 2026-09-28. GitHub reports 743 downloads of Nativ-0.3.11.dmg at review time; downloads are an adoption signal, not unique users."
+  },
+  {
     "name": "Ollama",
     "url": "https://ollama.com",
     "description": "Model runner with a command-line interface and API for local and cloud models",
@@ -420,6 +670,18 @@
     "evidence": "Cloud signup and Docker community deployment; license described as source-available."
   },
   {
+    "name": "Enconvo",
+    "url": "https://www.enconvo.com",
+    "description": "Mac assistant that combines contextual AI actions, dictation, knowledge tools, and automated workflows across apps",
+    "category": "Agents and Automation",
+    "platforms": [
+      "macos"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://www.enconvo.com",
+    "evidence": "Official Mac download, pricing, and customer testimonials. [Changelog](https://www.enconvo.com/changelog) documents release 2.5.5 on 2026-09-10 and desktop feature updates. The official [GitHub organization](https://github.com/Enconvo) hosts extensions; this does not imply the full app is open source."
+  },
+  {
     "name": "Flowise",
     "url": "https://flowiseai.com",
     "description": "Visual workspace for building AI agents and connecting models to tools and data",
@@ -431,6 +693,21 @@
     "verified": "2026-10-03",
     "source": "https://flowiseai.com",
     "evidence": "Agent builder, cloud access, and public source repository."
+  },
+  {
+    "name": "Goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "description": "Extensible desktop and terminal agent that edits files, executes tasks, and connects models to external tools",
+    "category": "Agents and Automation",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "cli"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://github.com/aaif-goose/goose",
+    "evidence": "Current AAIF repository, formerly block/goose; README documents desktop installers and CLI setup for the supported systems. [Release v1.53.0](https://github.com/aaif-goose/goose/releases/tag/v1.53.0) published 2026-10-02. [User report](https://github.com/aaif-goose/goose/issues/12655) documents real product use or feature requests."
   },
   {
     "name": "Langflow",
@@ -498,16 +775,31 @@
     "evidence": "Live creation product, signup, and presentation examples."
   },
   {
+    "name": "Granola",
+    "url": "https://www.granola.ai",
+    "description": "Meeting notepad that combines your notes with transcription and turns conversations into searchable summaries",
+    "category": "Productivity and Knowledge",
+    "platforms": [
+      "macos",
+      "windows",
+      "ios"
+    ],
+    "verified": "2026-10-03",
+    "source": "https://www.granola.ai/updates",
+    "evidence": "Official [download](https://www.granola.ai/download), Windows and iOS announcements, and product customer stories. [Service maintenance history](https://status.granola.ai/history) records Mac/Windows transcription support on 2026-08-04 and a resolved incident on 2026-09-04; hosted service, not offline transcription."
+  },
+  {
     "name": "Notion AI",
     "url": "https://www.notion.com/product/ai",
     "description": "Workspace assistant for searching knowledge, drafting documents, and automating tasks",
     "category": "Productivity and Knowledge",
     "platforms": [
+      "macos",
       "web"
     ],
     "verified": "2026-10-03",
     "source": "https://www.notion.com/product/ai",
-    "evidence": "Current workspace AI and agent features with product access."
+    "evidence": "Current workspace AI and agent features with product access. Mac availability additionally checked against the official [Mac app page](https://www.notion.com/desktop)."
   },
   {
     "name": "Raycast AI",

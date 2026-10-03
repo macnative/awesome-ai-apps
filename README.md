@@ -12,7 +12,7 @@ Web means a web interface; Browser and IDE identify integrations; CLI means comm
 
 Badges identify verified ways to use a product, not every supported platform. Web access does not imply a native desktop app. Self-hosting does not guarantee offline operation: model providers and integrations may still send data to external services.
 
-Seed review: **2026-10-03** · **48 apps** · [Verification sources](VERIFICATION.md). Verification checks public availability and documented capabilities; it is not a hands-on test, security audit, or product endorsement. Features, access, and pricing can change.
+Latest entry review: **2026-10-03** · **69 apps** · **39 with macOS support** · [Verification sources](VERIFICATION.md). Verification checks public availability and documented capabilities; it is not a hands-on test, security audit, or product endorsement. Features, access, and pricing can change.
 
 ## Contents
 
@@ -32,24 +32,34 @@ Seed review: **2026-10-03** · **48 apps** · [Verification sources](VERIFICATIO
 
 ## Chat and Assistants
 
+- [BoltAI](https://boltai.com) - Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots. ![macOS](assets/badges/macos.svg)
+- [Chatbox](https://github.com/chatboxai/chatbox) - Desktop chat client with document conversations, model switching, and support for local or hosted providers. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [ChatGPT](https://chatgpt.com) - Conversational assistant for research, writing, coding, and working with files. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Web](assets/badges/web.svg) ![iOS](assets/badges/ios.svg) ![Android](assets/badges/android.svg)
+- [Cherry Studio](https://github.com/CherryHQ/cherry-studio) - Multi-model desktop workspace with document knowledge bases, reusable assistants, and agent workflows. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [Claude](https://claude.com) - Assistant for document analysis, writing, coding, and extended conversations. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Web](assets/badges/web.svg) ![iOS](assets/badges/ios.svg) ![Android](assets/badges/android.svg)
+- [Enchanted](https://github.com/gluonfield/enchanted) - Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates. ![macOS](assets/badges/macos.svg) ![iOS](assets/badges/ios.svg)
 - [Gemini](https://gemini.google/about) - Google assistant for multimodal conversations, research, and creative work. ![Web](assets/badges/web.svg) ![iOS](assets/badges/ios.svg) ![Android](assets/badges/android.svg)
+- [macai](https://github.com/Renset/macai) - Native Mac chat client with provider switching, reusable prompts, and optional iCloud conversation sync. ![macOS](assets/badges/macos.svg)
+- [Msty Studio](https://msty.ai/products/studio) - Desktop workspace for comparing local and hosted models, organizing document knowledge, and reusing prompts. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [Perplexity](https://www.perplexity.ai) - Answer engine that searches the web and cites sources for follow-up research. ![Web](assets/badges/web.svg)
 - [Poe](https://poe.com) - Chat interface for using multiple AI models and discovering custom bots. ![Web](assets/badges/web.svg)
 
 ## Coding Assistants
 
 - [Aider](https://aider.chat) - Terminal pair programmer that edits code in an existing Git repository. ![CLI](assets/badges/cli.svg)
+- [Claude Code](https://github.com/anthropics/claude-code) - Terminal coding agent that explores repositories, edits files, runs commands, and handles Git workflows. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![CLI](assets/badges/cli.svg) ![IDE](assets/badges/ide.svg)
+- [Cline](https://github.com/cline/cline) - Coding agent for desktop, editors, and terminals that edits files and runs tools with approval controls. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![CLI](assets/badges/cli.svg) ![IDE](assets/badges/ide.svg)
+- [Codex CLI](https://github.com/openai/codex) - Terminal coding agent for understanding repositories, making changes, and running development tasks. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![CLI](assets/badges/cli.svg)
 - [Cursor](https://cursor.com) - Code editor and agent workspace for editing, understanding, and building software. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![Web](assets/badges/web.svg) ![CLI](assets/badges/cli.svg)
 - [GitHub Copilot](https://github.com/features/copilot) - Coding assistant and agent integrated with GitHub and supported editors. ![Web](assets/badges/web.svg) ![IDE](assets/badges/ide.svg)
+- [OpenCode](https://github.com/anomalyco/opencode) - Coding agent with terminal and desktop interfaces, multiple model providers, and project-aware tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![CLI](assets/badges/cli.svg)
 - [Replit](https://replit.com) - Browser development environment with an AI agent for building and deploying apps. ![Web](assets/badges/web.svg)
 - [Zed](https://zed.dev) - Collaborative code editor with integrated agents and AI-assisted editing. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 
 ## Writing and Editing
 
-- [DeepL Write](https://www.deepl.com/en/write) - Writing assistant for improving wording, grammar, tone, and style. ![Web](assets/badges/web.svg)
-- [Grammarly](https://www.grammarly.com) - Writing assistant for grammar, clarity, tone, and drafting across everyday work. ![Web](assets/badges/web.svg)
+- [DeepL Write](https://www.deepl.com/en/write) - Writing assistant for improving wording, grammar, tone, and style. ![macOS](assets/badges/macos.svg) ![Web](assets/badges/web.svg)
+- [Grammarly](https://www.grammarly.com) - Writing assistant for grammar, clarity, tone, and drafting across everyday work. ![macOS](assets/badges/macos.svg) ![Web](assets/badges/web.svg)
 - [Jasper](https://www.jasper.ai) - Marketing workspace for generating and adapting content to a brand voice. ![Web](assets/badges/web.svg)
 - [QuillBot](https://quillbot.com) - Writing toolkit for paraphrasing, grammar correction, and summarization. ![Web](assets/badges/web.svg)
 - [Sudowrite](https://sudowrite.com) - Fiction writing assistant for brainstorming, developing scenes, and revising prose. ![Web](assets/badges/web.svg)
@@ -57,6 +67,8 @@ Seed review: **2026-10-03** · **48 apps** · [Verification sources](VERIFICATIO
 ## Image and Video Generation
 
 - [Adobe Firefly](https://www.adobe.com/products/firefly.html) - Creative toolkit for generating and editing images, video, and other media. ![Web](assets/badges/web.svg)
+- [Comfy Desktop](https://github.com/Comfy-Org/Comfy-Desktop) - Desktop manager for building node-based image and video generation workflows with separate ComfyUI environments. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+- [Draw Things](https://drawthings.ai) - Apple app for local image and video generation, inpainting, model customization, and LoRA training. ![macOS](assets/badges/macos.svg) ![iOS](assets/badges/ios.svg)
 - [Ideogram](https://ideogram.ai) - Image generation platform for creating visuals from text prompts. ![Web](assets/badges/web.svg)
 - [Midjourney](https://www.midjourney.com) - Image and video generation service for exploring visual concepts and styles. ![Web](assets/badges/web.svg)
 - [Recraft](https://www.recraft.ai) - Design workspace for generating and editing raster images and vector graphics. ![Web](assets/badges/web.svg)
@@ -64,25 +76,33 @@ Seed review: **2026-10-03** · **48 apps** · [Verification sources](VERIFICATIO
 
 ## Audio Voice and Transcription
 
+- [Buzz](https://github.com/chidiwilliams/buzz) - Desktop transcription and translation tool with offline speech recognition and subtitle export. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [Descript](https://www.descript.com) - Audio and video editor with text-based editing, transcription, and AI production tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
 - [ElevenLabs](https://elevenlabs.io) - Audio platform for speech generation, dubbing, and conversational voice agents. ![Web](assets/badges/web.svg)
+- [Handy](https://github.com/cjpais/Handy) - Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [MacWhisper](https://www.macwhisper.com) - Mac transcription app for turning recordings into searchable and editable text. ![macOS](assets/badges/macos.svg)
 - [Otter](https://otter.ai) - Meeting assistant that transcribes conversations and produces notes and summaries. ![Web](assets/badges/web.svg)
 - [Suno](https://suno.com) - Music creation tool for generating songs and experimenting with musical ideas. ![Web](assets/badges/web.svg)
 - [Superwhisper](https://superwhisper.com) - Voice-to-text app that turns dictation into polished text inside other apps. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![iOS](assets/badges/ios.svg) ![Android](assets/badges/android.svg)
+- [Vibe](https://github.com/thewh1teagle/vibe) - Local transcription app for audio and video files, batch processing, and optional summaries through Ollama. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+- [VoiceInk](https://github.com/Beingpax/VoiceInk) - Mac dictation app with local speech models, app-specific modes, and optional AI text cleanup. ![macOS](assets/badges/macos.svg)
+- [Wispr Flow](https://wisprflow.ai) - Cross-app dictation tool that formats spoken thoughts into text and supports meeting notes. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![iOS](assets/badges/ios.svg) ![Android](assets/badges/android.svg)
 
 ## Local LLMs and Self-Hosted Apps
 
 - [AnythingLLM](https://anythingllm.com) - Workspace for chatting with documents and running agents with local or connected models. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
 - [Jan](https://www.jan.ai) - Desktop chat client for running local models or connecting to online model providers. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
 - [LM Studio](https://lmstudio.ai) - Desktop app for discovering local models, chatting with them, and serving an API. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+- [Nativ](https://github.com/Blaizzy/nativ) - Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs. ![macOS](assets/badges/macos.svg)
 - [Ollama](https://ollama.com) - Model runner with a command-line interface and API for local and cloud models. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![CLI](assets/badges/cli.svg)
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted chat interface for local and remote models with document workflows. ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
 
 ## Agents and Automation
 
 - [Dify](https://dify.ai) - Visual builder for AI agents, knowledge pipelines, and model-driven workflows. ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
+- [Enconvo](https://www.enconvo.com) - Mac assistant that combines contextual AI actions, dictation, knowledge tools, and automated workflows across apps. ![macOS](assets/badges/macos.svg)
 - [Flowise](https://flowiseai.com) - Visual workspace for building AI agents and connecting models to tools and data. ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
+- [Goose](https://github.com/aaif-goose/goose) - Extensible desktop and terminal agent that edits files, executes tasks, and connects models to external tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg) ![CLI](assets/badges/cli.svg)
 - [Langflow](https://www.langflow.org) - Visual builder for composing AI agents and retrieval workflows. ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
 - [Lindy](https://www.lindy.ai) - AI assistant for automating work across email, meetings, and connected business tools. ![Web](assets/badges/web.svg)
 - [n8n](https://n8n.io) - Workflow automation platform that connects AI agents with business apps and data. ![Web](assets/badges/web.svg) ![Self-hosted](assets/badges/self-hosted.svg)
@@ -91,7 +111,8 @@ Seed review: **2026-10-03** · **48 apps** · [Verification sources](VERIFICATIO
 
 - [Craft](https://www.craft.do) - Document and notes workspace with an AI assistant for writing and working with knowledge. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Web](assets/badges/web.svg) ![iOS](assets/badges/ios.svg)
 - [Gamma](https://gamma.app) - AI creation tool for presentations, documents, and websites. ![Web](assets/badges/web.svg)
-- [Notion AI](https://www.notion.com/product/ai) - Workspace assistant for searching knowledge, drafting documents, and automating tasks. ![Web](assets/badges/web.svg)
+- [Granola](https://www.granola.ai) - Meeting notepad that combines your notes with transcription and turns conversations into searchable summaries. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![iOS](assets/badges/ios.svg)
+- [Notion AI](https://www.notion.com/product/ai) - Workspace assistant for searching knowledge, drafting documents, and automating tasks. ![macOS](assets/badges/macos.svg) ![Web](assets/badges/web.svg)
 - [Raycast AI](https://www.raycast.com/core-features/ai) - Assistant for chatting with models and applying AI commands to everyday work. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![iOS](assets/badges/ios.svg)
 
 ## Developer Tools
