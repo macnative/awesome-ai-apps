@@ -28,7 +28,7 @@ Latest entry review: **2026-10-03** · **40 desktop apps** · **40 with macOS su
 - [Keeping the List Useful](#keeping-the-list-useful)
 
 ## Chat and Assistants
-- [AI Group Call](https://aigroupcall.app) - You set a goal and six to eight AI voices run a round-table call with you: drop-ins, barge-in, and a written recap.
+- [AI Group Call](https://aigroupcall.app) - You set a goal and two to eight AI voices run a round-table call with you: drop-ins, barge-in, and a written recap.
 
 - [BoltAI](https://boltai.com) - Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots. ![macOS](assets/badges/macos.svg)
 - [Chatbox](https://github.com/chatboxai/chatbox) - Desktop chat client with document conversations, model switching, and support for local or hosted providers. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
