@@ -21,9 +21,15 @@ Latest entry review: **${apps.map(app => app.verified).sort().at(-1)}** · **${a
 
 ${[...categories, 'Inclusion Criteria', 'Keeping the List Useful'].map(cat => `- [${cat}](#${slug(cat)})`).join('\n')}
 `;
+const escapeHtml = text => text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 for (const category of categories) {
  readme += `\n## ${category}\n\n`;
- readme += apps.filter(app => app.category === category).map(app => `- [${app.name}](${app.url}) - ${app.description}. ${app.platforms.map(platformBadge).join(' ')}`).join('\n')+'\n';
+ readme += '<table>\n';
+ readme += apps.filter(app => app.category === category).map(app => `<tr>
+<td width="64"><img src="${app.icon}" width="48" height="48" alt="${escapeHtml(app.name)} icon"></td>
+<td><strong><a href="${app.url}">${escapeHtml(app.name)}</a></strong><br><sub>${escapeHtml(app.description)}. ${app.platforms.map(platformBadge).join(' ')}</sub></td>
+</tr>`).join('\n')+'\n';
+ readme += '</table>\n';
 }
 readme += `
 ## Inclusion Criteria

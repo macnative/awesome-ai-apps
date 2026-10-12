@@ -2,6 +2,7 @@
   {
     "name": "BoltAI",
     "url": "https://boltai.com",
+    "icon": "assets/icons/boltai.png",
     "description": "Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots",
     "category": "Chat and Assistants",
     "platforms": [
@@ -14,6 +15,7 @@
   {
     "name": "Chatbox",
     "url": "https://github.com/chatboxai/chatbox",
+    "icon": "assets/icons/chatbox.png",
     "description": "Desktop chat client with document conversations, model switching, and support for local or hosted providers",
     "category": "Chat and Assistants",
     "platforms": [
@@ -28,6 +30,7 @@
   {
     "name": "ChatGPT",
     "url": "https://chatgpt.com",
+    "icon": "assets/icons/chatgpt.png",
     "description": "Conversational assistant for research, writing, coding, and working with files",
     "category": "Chat and Assistants",
     "platforms": [
@@ -41,6 +44,7 @@
   {
     "name": "Cherry Studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
+    "icon": "assets/icons/cherry-studio.png",
     "description": "Multi-model desktop workspace with document knowledge bases, reusable assistants, and agent workflows",
     "category": "Chat and Assistants",
     "platforms": [
@@ -55,6 +59,7 @@
   {
     "name": "Claude",
     "url": "https://claude.com",
+    "icon": "assets/icons/claude.png",
     "description": "Assistant for document analysis, writing, coding, and extended conversations",
     "category": "Chat and Assistants",
     "platforms": [
@@ -68,6 +73,7 @@
   {
     "name": "Enchanted",
     "url": "https://github.com/gluonfield/enchanted",
+    "icon": "assets/icons/enchanted.png",
     "description": "Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates",
     "category": "Chat and Assistants",
     "platforms": [
@@ -80,6 +86,7 @@
   {
     "name": "macai",
     "url": "https://github.com/Renset/macai",
+    "icon": "assets/icons/macai.png",
     "description": "Native Mac chat client with provider switching, reusable prompts, and optional iCloud conversation sync",
     "category": "Chat and Assistants",
     "platforms": [
@@ -92,6 +99,7 @@
   {
     "name": "Monica",
     "url": "https://monica.im",
+    "icon": "assets/icons/monica.png",
     "description": "Desktop AI assistant for multi-model chat, writing, translation, and document summaries",
     "category": "Chat and Assistants",
     "platforms": [
@@ -105,6 +113,7 @@
   {
     "name": "Msty Studio",
     "url": "https://msty.ai/products/studio",
+    "icon": "assets/icons/msty-studio.png",
     "description": "Desktop workspace for comparing local and hosted models, organizing document knowledge, and reusing prompts",
     "category": "Chat and Assistants",
     "platforms": [
@@ -119,6 +128,7 @@
   {
     "name": "Perplexity",
     "url": "https://www.perplexity.ai",
+    "icon": "assets/icons/perplexity.png",
     "description": "Desktop research assistant with cited answers and tools for working with local files and apps",
     "category": "Chat and Assistants",
     "platforms": [
@@ -131,6 +141,7 @@
   {
     "name": "Poe",
     "url": "https://poe.com",
+    "icon": "assets/icons/poe.png",
     "description": "Desktop chat client for using multiple AI models and discovering custom bots",
     "category": "Chat and Assistants",
     "platforms": [
@@ -144,6 +155,7 @@
   {
     "name": "Cline",
     "url": "https://github.com/cline/cline",
+    "icon": "assets/icons/cline.png",
     "description": "Desktop coding agent that edits files, runs tools, and manages agent sessions with approval controls",
     "category": "Coding Assistants",
     "platforms": [
@@ -157,6 +169,7 @@
   {
     "name": "Cursor",
     "url": "https://cursor.com",
+    "icon": "assets/icons/cursor.png",
     "description": "Desktop code editor and agent workspace for editing, understanding, and building software",
     "category": "Coding Assistants",
     "platforms": [
@@ -171,6 +184,7 @@
   {
     "name": "OpenCode",
     "url": "https://github.com/anomalyco/opencode",
+    "icon": "assets/icons/opencode.png",
     "description": "Desktop coding agent with multiple model providers and project-aware tools",
     "category": "Coding Assistants",
     "platforms": [
@@ -185,6 +199,7 @@
   {
     "name": "Zed",
     "url": "https://zed.dev",
+    "icon": "assets/icons/zed.png",
     "description": "Collaborative code editor with integrated agents and AI-assisted editing",
     "category": "Coding Assistants",
     "platforms": [
@@ -199,6 +214,7 @@
   {
     "name": "DeepL Write",
     "url": "https://www.deepl.com/en/write",
+    "icon": "assets/icons/deepl-write.png",
     "description": "Writing assistant for improving wording, grammar, tone, and style",
     "category": "Writing and Editing",
     "platforms": [
@@ -211,6 +227,7 @@
   {
     "name": "Grammarly",
     "url": "https://www.grammarly.com",
+    "icon": "assets/icons/grammarly.png",
     "description": "Writing assistant for grammar, clarity, tone, and drafting across everyday work",
     "category": "Writing and Editing",
     "platforms": [
@@ -223,6 +240,7 @@
   {
     "name": "Comfy Desktop",
     "url": "https://github.com/Comfy-Org/Comfy-Desktop",
+    "icon": "assets/icons/comfy-desktop.png",
     "description": "Desktop manager for building node-based image and video generation workflows with separate ComfyUI environments",
     "category": "Image and Video Generation",
     "platforms": [
@@ -237,6 +255,7 @@
   {
     "name": "Draw Things",
     "url": "https://drawthings.ai",
+    "icon": "assets/icons/draw-things.png",
     "description": "Apple app for local image and video generation, inpainting, model customization, and LoRA training",
     "category": "Image and Video Generation",
     "platforms": [
@@ -249,6 +268,7 @@
   {
     "name": "Buzz",
     "url": "https://github.com/chidiwilliams/buzz",
+    "icon": "assets/icons/buzz.png",
     "description": "Desktop transcription and translation tool with offline speech recognition and subtitle export",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -263,6 +283,7 @@
   {
     "name": "Descript",
     "url": "https://www.descript.com",
+    "icon": "assets/icons/descript.png",
     "description": "Audio and video editor with text-based editing, transcription, and AI production tools",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -276,6 +297,7 @@
   {
     "name": "Handy",
     "url": "https://github.com/cjpais/Handy",
+    "icon": "assets/icons/handy.png",
     "description": "Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -290,6 +312,7 @@
   {
     "name": "MacWhisper",
     "url": "https://www.macwhisper.com",
+    "icon": "assets/icons/macwhisper.png",
     "description": "Mac transcription app for turning recordings into searchable and editable text",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -302,6 +325,7 @@
   {
     "name": "Superwhisper",
     "url": "https://superwhisper.com",
+    "icon": "assets/icons/superwhisper.png",
     "description": "Voice-to-text app that turns dictation into polished text inside other apps",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -315,6 +339,7 @@
   {
     "name": "Vibe",
     "url": "https://github.com/thewh1teagle/vibe",
+    "icon": "assets/icons/vibe.png",
     "description": "Local transcription app for audio and video files, batch processing, and optional summaries through Ollama",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -329,6 +354,7 @@
   {
     "name": "VoiceInk",
     "url": "https://github.com/Beingpax/VoiceInk",
+    "icon": "assets/icons/voiceink.png",
     "description": "Mac dictation app with local speech models, app-specific modes, and optional AI text cleanup",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -341,6 +367,7 @@
   {
     "name": "Wispr Flow",
     "url": "https://wisprflow.ai",
+    "icon": "assets/icons/wispr-flow.png",
     "description": "Cross-app dictation tool that formats spoken thoughts into text and supports meeting notes",
     "category": "Audio Voice and Transcription",
     "platforms": [
@@ -354,6 +381,7 @@
   {
     "name": "AnythingLLM",
     "url": "https://anythingllm.com",
+    "icon": "assets/icons/anythingllm.png",
     "description": "Workspace for chatting with documents and running agents with local or connected models",
     "category": "Local LLM Apps",
     "platforms": [
@@ -368,6 +396,7 @@
   {
     "name": "Jan",
     "url": "https://www.jan.ai",
+    "icon": "assets/icons/jan.png",
     "description": "Desktop chat client for running local models or connecting to online model providers",
     "category": "Local LLM Apps",
     "platforms": [
@@ -382,6 +411,7 @@
   {
     "name": "LM Studio",
     "url": "https://lmstudio.ai",
+    "icon": "assets/icons/lm-studio.png",
     "description": "Desktop app for discovering local models, chatting with them, and serving an API",
     "category": "Local LLM Apps",
     "platforms": [
@@ -396,6 +426,7 @@
   {
     "name": "Nativ",
     "url": "https://github.com/Blaizzy/nativ",
+    "icon": "assets/icons/nativ.png",
     "description": "Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs",
     "category": "Local LLM Apps",
     "platforms": [
@@ -408,6 +439,7 @@
   {
     "name": "Ollama",
     "url": "https://ollama.com",
+    "icon": "assets/icons/ollama.png",
     "description": "Desktop app for running local models and connecting them to chat apps, with an accompanying API and CLI",
     "category": "Local LLM Apps",
     "platforms": [
@@ -421,6 +453,7 @@
   {
     "name": "Enconvo",
     "url": "https://www.enconvo.com",
+    "icon": "assets/icons/enconvo.png",
     "description": "Mac assistant that combines contextual AI actions, dictation, knowledge tools, and automated workflows across apps",
     "category": "Agents and Automation",
     "platforms": [
@@ -433,6 +466,7 @@
   {
     "name": "Goose",
     "url": "https://github.com/aaif-goose/goose",
+    "icon": "assets/icons/goose.png",
     "description": "Extensible desktop agent that edits files, executes tasks, and connects models to external tools",
     "category": "Agents and Automation",
     "platforms": [
@@ -447,6 +481,7 @@
   {
     "name": "Craft",
     "url": "https://www.craft.do",
+    "icon": "assets/icons/craft.png",
     "description": "Document and notes workspace with an AI assistant for writing and working with knowledge",
     "category": "Productivity and Knowledge",
     "platforms": [
@@ -460,6 +495,7 @@
   {
     "name": "Granola",
     "url": "https://www.granola.ai",
+    "icon": "assets/icons/granola.png",
     "description": "Meeting notepad that combines your notes with transcription and turns conversations into searchable summaries",
     "category": "Productivity and Knowledge",
     "platforms": [
@@ -473,6 +509,7 @@
   {
     "name": "Notion AI",
     "url": "https://www.notion.com/product/ai",
+    "icon": "assets/icons/notion-ai.png",
     "description": "Workspace assistant for searching knowledge, drafting documents, and automating tasks",
     "category": "Productivity and Knowledge",
     "platforms": [
@@ -485,6 +522,7 @@
   {
     "name": "Raycast AI",
     "url": "https://www.raycast.com/core-features/ai",
+    "icon": "assets/icons/raycast-ai.png",
     "description": "Assistant for chatting with models and applying AI commands to everyday work",
     "category": "Productivity and Knowledge",
     "platforms": [
@@ -498,6 +536,7 @@
   {
     "name": "Warp",
     "url": "https://www.warp.dev",
+    "icon": "assets/icons/warp.png",
     "description": "Development environment with AI agents for coding and terminal workflows",
     "category": "Developer Tools",
     "platforms": [
@@ -512,6 +551,7 @@
   {
     "name": "Comet",
     "url": "https://www.perplexity.ai/comet",
+    "icon": "assets/icons/comet.png",
     "description": "Browser with an assistant that understands pages and helps complete browsing tasks",
     "category": "AI Browsers",
     "platforms": [
