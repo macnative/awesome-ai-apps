@@ -6,7 +6,7 @@ Find installable AI desktop software for chat, coding, writing, image and video 
 
 **Build an AI desktop app? [Submit it for review](#contributing).** Independent developers and product teams are welcome. Inclusion is earned through usefulness, availability, and maintenance; there are no paid placements or affiliate links.
 
-Platform badges: ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+Platform badges: <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux">
 
 Badges identify verified desktop app availability. Native and cross-platform desktop apps are welcome, including apps that use cloud AI services. A desktop app does not have to run its models offline. Hardware, operating-system versions, and plan requirements vary by product.
 
@@ -29,73 +29,213 @@ Latest entry review: **2026-10-03** · **40 desktop apps** · **40 with macOS su
 
 ## Chat and Assistants
 
-- [BoltAI](https://boltai.com) - Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots. ![macOS](assets/badges/macos.svg)
-- [Chatbox](https://github.com/chatboxai/chatbox) - Desktop chat client with document conversations, model switching, and support for local or hosted providers. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [ChatGPT](https://chatgpt.com) - Conversational assistant for research, writing, coding, and working with files. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Cherry Studio](https://github.com/CherryHQ/cherry-studio) - Multi-model desktop workspace with document knowledge bases, reusable assistants, and agent workflows. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Claude](https://claude.com) - Assistant for document analysis, writing, coding, and extended conversations. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Enchanted](https://github.com/gluonfield/enchanted) - Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates. ![macOS](assets/badges/macos.svg)
-- [macai](https://github.com/Renset/macai) - Native Mac chat client with provider switching, reusable prompts, and optional iCloud conversation sync. ![macOS](assets/badges/macos.svg)
-- [Monica](https://monica.im) - Desktop AI assistant for multi-model chat, writing, translation, and document summaries. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Msty Studio](https://msty.ai/products/studio) - Desktop workspace for comparing local and hosted models, organizing document knowledge, and reusing prompts. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Perplexity](https://www.perplexity.ai) - Desktop research assistant with cited answers and tools for working with local files and apps. ![macOS](assets/badges/macos.svg)
-- [Poe](https://poe.com) - Desktop chat client for using multiple AI models and discovering custom bots. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/boltai.png" width="48" height="48" alt="BoltAI icon"></td>
+<td><strong><a href="https://boltai.com">BoltAI</a></strong><br><sub>Native Mac AI workspace with multiple providers, reusable agents, and quick actions for selected text and screenshots. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/chatbox.png" width="48" height="48" alt="Chatbox icon"></td>
+<td><strong><a href="https://github.com/chatboxai/chatbox">Chatbox</a></strong><br><sub>Desktop chat client with document conversations, model switching, and support for local or hosted providers. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/chatgpt.png" width="48" height="48" alt="ChatGPT icon"></td>
+<td><strong><a href="https://chatgpt.com">ChatGPT</a></strong><br><sub>Conversational assistant for research, writing, coding, and working with files. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/cherry-studio.png" width="48" height="48" alt="Cherry Studio icon"></td>
+<td><strong><a href="https://github.com/CherryHQ/cherry-studio">Cherry Studio</a></strong><br><sub>Multi-model desktop workspace with document knowledge bases, reusable assistants, and agent workflows. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/claude.png" width="48" height="48" alt="Claude icon"></td>
+<td><strong><a href="https://claude.com">Claude</a></strong><br><sub>Assistant for document analysis, writing, coding, and extended conversations. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/enchanted.png" width="48" height="48" alt="Enchanted icon"></td>
+<td><strong><a href="https://github.com/gluonfield/enchanted">Enchanted</a></strong><br><sub>Native Apple chat client for connecting to an Ollama server, with keyboard access and prompt templates. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/macai.png" width="48" height="48" alt="macai icon"></td>
+<td><strong><a href="https://github.com/Renset/macai">macai</a></strong><br><sub>Native Mac chat client with provider switching, reusable prompts, and optional iCloud conversation sync. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/monica.png" width="48" height="48" alt="Monica icon"></td>
+<td><strong><a href="https://monica.im">Monica</a></strong><br><sub>Desktop AI assistant for multi-model chat, writing, translation, and document summaries. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/msty-studio.png" width="48" height="48" alt="Msty Studio icon"></td>
+<td><strong><a href="https://msty.ai/products/studio">Msty Studio</a></strong><br><sub>Desktop workspace for comparing local and hosted models, organizing document knowledge, and reusing prompts. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/perplexity.png" width="48" height="48" alt="Perplexity icon"></td>
+<td><strong><a href="https://www.perplexity.ai">Perplexity</a></strong><br><sub>Desktop research assistant with cited answers and tools for working with local files and apps. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/poe.png" width="48" height="48" alt="Poe icon"></td>
+<td><strong><a href="https://poe.com">Poe</a></strong><br><sub>Desktop chat client for using multiple AI models and discovering custom bots. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+</table>
 
 ## Coding Assistants
 
-- [Cline](https://github.com/cline/cline) - Desktop coding agent that edits files, runs tools, and manages agent sessions with approval controls. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Cursor](https://cursor.com) - Desktop code editor and agent workspace for editing, understanding, and building software. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [OpenCode](https://github.com/anomalyco/opencode) - Desktop coding agent with multiple model providers and project-aware tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Zed](https://zed.dev) - Collaborative code editor with integrated agents and AI-assisted editing. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/cline.png" width="48" height="48" alt="Cline icon"></td>
+<td><strong><a href="https://github.com/cline/cline">Cline</a></strong><br><sub>Desktop coding agent that edits files, runs tools, and manages agent sessions with approval controls. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/cursor.png" width="48" height="48" alt="Cursor icon"></td>
+<td><strong><a href="https://cursor.com">Cursor</a></strong><br><sub>Desktop code editor and agent workspace for editing, understanding, and building software. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/opencode.png" width="48" height="48" alt="OpenCode icon"></td>
+<td><strong><a href="https://github.com/anomalyco/opencode">OpenCode</a></strong><br><sub>Desktop coding agent with multiple model providers and project-aware tools. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/zed.png" width="48" height="48" alt="Zed icon"></td>
+<td><strong><a href="https://zed.dev">Zed</a></strong><br><sub>Collaborative code editor with integrated agents and AI-assisted editing. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+</table>
 
 ## Writing and Editing
 
-- [DeepL Write](https://www.deepl.com/en/write) - Writing assistant for improving wording, grammar, tone, and style. ![macOS](assets/badges/macos.svg)
-- [Grammarly](https://www.grammarly.com) - Writing assistant for grammar, clarity, tone, and drafting across everyday work. ![macOS](assets/badges/macos.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/deepl-write.png" width="48" height="48" alt="DeepL Write icon"></td>
+<td><strong><a href="https://www.deepl.com/en/write">DeepL Write</a></strong><br><sub>Writing assistant for improving wording, grammar, tone, and style. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/grammarly.png" width="48" height="48" alt="Grammarly icon"></td>
+<td><strong><a href="https://www.grammarly.com">Grammarly</a></strong><br><sub>Writing assistant for grammar, clarity, tone, and drafting across everyday work. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+</table>
 
 ## Image and Video Generation
 
-- [Comfy Desktop](https://github.com/Comfy-Org/Comfy-Desktop) - Desktop manager for building node-based image and video generation workflows with separate ComfyUI environments. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Draw Things](https://drawthings.ai) - Apple app for local image and video generation, inpainting, model customization, and LoRA training. ![macOS](assets/badges/macos.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/comfy-desktop.png" width="48" height="48" alt="Comfy Desktop icon"></td>
+<td><strong><a href="https://github.com/Comfy-Org/Comfy-Desktop">Comfy Desktop</a></strong><br><sub>Desktop manager for building node-based image and video generation workflows with separate ComfyUI environments. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/draw-things.png" width="48" height="48" alt="Draw Things icon"></td>
+<td><strong><a href="https://drawthings.ai">Draw Things</a></strong><br><sub>Apple app for local image and video generation, inpainting, model customization, and LoRA training. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+</table>
 
 ## Audio Voice and Transcription
 
-- [Buzz](https://github.com/chidiwilliams/buzz) - Desktop transcription and translation tool with offline speech recognition and subtitle export. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Descript](https://www.descript.com) - Audio and video editor with text-based editing, transcription, and AI production tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Handy](https://github.com/cjpais/Handy) - Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [MacWhisper](https://www.macwhisper.com) - Mac transcription app for turning recordings into searchable and editable text. ![macOS](assets/badges/macos.svg)
-- [Superwhisper](https://superwhisper.com) - Voice-to-text app that turns dictation into polished text inside other apps. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Vibe](https://github.com/thewh1teagle/vibe) - Local transcription app for audio and video files, batch processing, and optional summaries through Ollama. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [VoiceInk](https://github.com/Beingpax/VoiceInk) - Mac dictation app with local speech models, app-specific modes, and optional AI text cleanup. ![macOS](assets/badges/macos.svg)
-- [Wispr Flow](https://wisprflow.ai) - Cross-app dictation tool that formats spoken thoughts into text and supports meeting notes. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/buzz.png" width="48" height="48" alt="Buzz icon"></td>
+<td><strong><a href="https://github.com/chidiwilliams/buzz">Buzz</a></strong><br><sub>Desktop transcription and translation tool with offline speech recognition and subtitle export. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/descript.png" width="48" height="48" alt="Descript icon"></td>
+<td><strong><a href="https://www.descript.com">Descript</a></strong><br><sub>Audio and video editor with text-based editing, transcription, and AI production tools. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/handy.png" width="48" height="48" alt="Handy icon"></td>
+<td><strong><a href="https://github.com/cjpais/Handy">Handy</a></strong><br><sub>Local speech-to-text app that pastes dictated text into the active application through a keyboard shortcut. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/macwhisper.png" width="48" height="48" alt="MacWhisper icon"></td>
+<td><strong><a href="https://www.macwhisper.com">MacWhisper</a></strong><br><sub>Mac transcription app for turning recordings into searchable and editable text. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/superwhisper.png" width="48" height="48" alt="Superwhisper icon"></td>
+<td><strong><a href="https://superwhisper.com">Superwhisper</a></strong><br><sub>Voice-to-text app that turns dictation into polished text inside other apps. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/vibe.png" width="48" height="48" alt="Vibe icon"></td>
+<td><strong><a href="https://github.com/thewh1teagle/vibe">Vibe</a></strong><br><sub>Local transcription app for audio and video files, batch processing, and optional summaries through Ollama. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/voiceink.png" width="48" height="48" alt="VoiceInk icon"></td>
+<td><strong><a href="https://github.com/Beingpax/VoiceInk">VoiceInk</a></strong><br><sub>Mac dictation app with local speech models, app-specific modes, and optional AI text cleanup. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/wispr-flow.png" width="48" height="48" alt="Wispr Flow icon"></td>
+<td><strong><a href="https://wisprflow.ai">Wispr Flow</a></strong><br><sub>Cross-app dictation tool that formats spoken thoughts into text and supports meeting notes. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+</table>
 
 ## Local LLM Apps
 
-- [AnythingLLM](https://anythingllm.com) - Workspace for chatting with documents and running agents with local or connected models. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Jan](https://www.jan.ai) - Desktop chat client for running local models or connecting to online model providers. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [LM Studio](https://lmstudio.ai) - Desktop app for discovering local models, chatting with them, and serving an API. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
-- [Nativ](https://github.com/Blaizzy/nativ) - Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs. ![macOS](assets/badges/macos.svg)
-- [Ollama](https://ollama.com) - Desktop app for running local models and connecting them to chat apps, with an accompanying API and CLI. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/anythingllm.png" width="48" height="48" alt="AnythingLLM icon"></td>
+<td><strong><a href="https://anythingllm.com">AnythingLLM</a></strong><br><sub>Workspace for chatting with documents and running agents with local or connected models. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/jan.png" width="48" height="48" alt="Jan icon"></td>
+<td><strong><a href="https://www.jan.ai">Jan</a></strong><br><sub>Desktop chat client for running local models or connecting to online model providers. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/lm-studio.png" width="48" height="48" alt="LM Studio icon"></td>
+<td><strong><a href="https://lmstudio.ai">LM Studio</a></strong><br><sub>Desktop app for discovering local models, chatting with them, and serving an API. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/nativ.png" width="48" height="48" alt="Nativ icon"></td>
+<td><strong><a href="https://github.com/Blaizzy/nativ">Nativ</a></strong><br><sub>Native Apple Silicon workspace for local MLX chat, model management, and compatible inference APIs. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/ollama.png" width="48" height="48" alt="Ollama icon"></td>
+<td><strong><a href="https://ollama.com">Ollama</a></strong><br><sub>Desktop app for running local models and connecting them to chat apps, with an accompanying API and CLI. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+</table>
 
 ## Agents and Automation
 
-- [Enconvo](https://www.enconvo.com) - Mac assistant that combines contextual AI actions, dictation, knowledge tools, and automated workflows across apps. ![macOS](assets/badges/macos.svg)
-- [Goose](https://github.com/aaif-goose/goose) - Extensible desktop agent that edits files, executes tasks, and connects models to external tools. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/enconvo.png" width="48" height="48" alt="Enconvo icon"></td>
+<td><strong><a href="https://www.enconvo.com">Enconvo</a></strong><br><sub>Mac assistant that combines contextual AI actions, dictation, knowledge tools, and automated workflows across apps. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/goose.png" width="48" height="48" alt="Goose icon"></td>
+<td><strong><a href="https://github.com/aaif-goose/goose">Goose</a></strong><br><sub>Extensible desktop agent that edits files, executes tasks, and connects models to external tools. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+</table>
 
 ## Productivity and Knowledge
 
-- [Craft](https://www.craft.do) - Document and notes workspace with an AI assistant for writing and working with knowledge. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Granola](https://www.granola.ai) - Meeting notepad that combines your notes with transcription and turns conversations into searchable summaries. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
-- [Notion AI](https://www.notion.com/product/ai) - Workspace assistant for searching knowledge, drafting documents, and automating tasks. ![macOS](assets/badges/macos.svg)
-- [Raycast AI](https://www.raycast.com/core-features/ai) - Assistant for chatting with models and applying AI commands to everyday work. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/craft.png" width="48" height="48" alt="Craft icon"></td>
+<td><strong><a href="https://www.craft.do">Craft</a></strong><br><sub>Document and notes workspace with an AI assistant for writing and working with knowledge. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/granola.png" width="48" height="48" alt="Granola icon"></td>
+<td><strong><a href="https://www.granola.ai">Granola</a></strong><br><sub>Meeting notepad that combines your notes with transcription and turns conversations into searchable summaries. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/notion-ai.png" width="48" height="48" alt="Notion AI icon"></td>
+<td><strong><a href="https://www.notion.com/product/ai">Notion AI</a></strong><br><sub>Workspace assistant for searching knowledge, drafting documents, and automating tasks. <img src="assets/badges/macos.svg" alt="macOS"></sub></td>
+</tr>
+<tr>
+<td width="64"><img src="assets/icons/raycast-ai.png" width="48" height="48" alt="Raycast AI icon"></td>
+<td><strong><a href="https://www.raycast.com/core-features/ai">Raycast AI</a></strong><br><sub>Assistant for chatting with models and applying AI commands to everyday work. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+</table>
 
 ## Developer Tools
 
-- [Warp](https://www.warp.dev) - Development environment with AI agents for coding and terminal workflows. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg) ![Linux](assets/badges/linux.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/warp.png" width="48" height="48" alt="Warp icon"></td>
+<td><strong><a href="https://www.warp.dev">Warp</a></strong><br><sub>Development environment with AI agents for coding and terminal workflows. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"> <img src="assets/badges/linux.svg" alt="Linux"></sub></td>
+</tr>
+</table>
 
 ## AI Browsers
 
-- [Comet](https://www.perplexity.ai/comet) - Browser with an assistant that understands pages and helps complete browsing tasks. ![macOS](assets/badges/macos.svg) ![Windows](assets/badges/windows.svg)
+<table>
+<tr>
+<td width="64"><img src="assets/icons/comet.png" width="48" height="48" alt="Comet icon"></td>
+<td><strong><a href="https://www.perplexity.ai/comet">Comet</a></strong><br><sub>Browser with an assistant that understands pages and helps complete browsing tasks. <img src="assets/badges/macos.svg" alt="macOS"> <img src="assets/badges/windows.svg" alt="Windows"></sub></td>
+</tr>
+</table>
 
 ## Inclusion Criteria
 

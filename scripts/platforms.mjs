@@ -6,5 +6,5 @@ export const platforms = {
 
 export const platformBadge = key => {
  if (!Object.hasOwn(platforms, key)) throw new Error(`Unknown platform: ${key}`);
- return `![${platforms[key]}](assets/badges/${key}.svg)`;
+ return `<img src="assets/badges/${key}.svg" alt="${platforms[key]}">`;
 };
